@@ -22,7 +22,7 @@ img:hover{
 }
 .bayan{
     max-width: 800px;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 .bayan-item{
     border-top: 3px solid rgb(173, 173, 173);
@@ -62,10 +62,12 @@ img:hover{
     color: #000000;
     font-weight: 900;
     transition: .3s ease-out;
+    height: 450px;
 }
 .bayan-mem{
    display: none;
 }
+
 .bayan-input:checked ~ .bayan-mem{
     display: block;
 }
